@@ -1,0 +1,34 @@
+---
+import Hero from '../components/Hero.astro';
+import About from '../components/About.astro';
+import Skills from '../components/Skills.astro';
+import Projects from '../components/Projects.astro';
+import Contact from '../components/Contact.astro';
+import '../styles/global.css';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hasib Jaan | Web Dev & Design Visionary</title>
+    <meta name="description" content="Discover Hasib Jaan's portfolio: Advanced web development, graphic design, video editing, and AI robotics from UAE. Cinematic, innovative creations." />
+    <meta property="og:title" content="Hasib Jaan | Web Dev & Design Visionary" />
+    <meta property="og:description" content="Futuristic portfolio of Hasib Jaan – Where code crafts worlds. Explore now." />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Inter:wght@400&display=swap" />
+    <script is:inline type="module" src="/scripts/animations.js"></script>
+  </head>
+  <body>
+    <main>
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+    </main>
+    <footer>
+      <p>Engineered in Shadows, Illuminated by Code ⚡</p>
+    </footer>
+  </body>
+</html>
